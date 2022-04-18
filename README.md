@@ -5,16 +5,16 @@
 장고 채널을 이용한 채팅서버 프로젝트 구조는 아래와 같습니다.  작업 파일들은 아래와 같습니다.
 
 - config app
-./config/asgi
-./config/routing
-./config/settings
-./config/urls
+  ./config/asgi
+  ./config/routing
+  ./config/settings
+  ./config/urls
 - chat app
-./chat/consumers
-./chat/routing
-./chat/templates
-./chat/urls
-./chat/views
+  ./chat/consumers
+  ./chat/routing
+  ./chat/templates
+  ./chat/urls
+  ./chat/views
 ```
 .
 ├── README.md
@@ -47,10 +47,10 @@
 ## [env]
 virtualenv를 사용하여 아래와 같은 버전으로 작업하였습니다.  localhost와 redis-server를 통하여 로컬환경에서 작업 및 테스트하였습니다.
 
-python 3.8
-django 3.2
-channels 3.0
-localhost
+- python 3.8
+- django 3.2
+- channels 3.0
+- localhost
 
 ## [install]
 프로젝트에 필요한 서드파티들은 ./requirements.txt 파일을 통해 설치할 수 있습니다.
