@@ -5,16 +5,16 @@
 장고 채널을 이용한 채팅서버 프로젝트 구조는 아래와 같습니다.  작업 파일들은 아래와 같습니다.
 
 - config app
-  ./config/asgi
-  ./config/routing
-  ./config/settings
-  ./config/urls
+  - ./config/asgi
+  - ./config/routing
+  - ./config/settings
+  - ./config/urls
 - chat app
-  ./chat/consumers
-  ./chat/routing
-  ./chat/templates
-  ./chat/urls
-  ./chat/views
+  - ./chat/consumers
+  - ./chat/routing
+  - ./chat/templates
+  - ./chat/urls
+  - ./chat/views
 ```
 .
 ├── README.md
